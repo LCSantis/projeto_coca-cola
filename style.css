@@ -29,7 +29,7 @@ main {
   background-attachment: fixed;
 }
 
-.menu_line1, .menu_line3 {
+.menu_line {
   margin-bottom: 4px;
   width: 1.3em;
   border: 1px solid #FFFFFF;
@@ -49,26 +49,25 @@ main {
   color: #FFFFFF;
   width: 212px;
 
-  margin-top: 45vh;
-  margin-left: 30vh;
-  position: fixed;
+  position: absolute;
+  left: 50%;
+  top: 45%;
 
+  transform: translate(-150%);
 }
 
-.item_list {
-  margin-bottom: 5px;
-  background-color: #FFFFFF10; 
-}
-
-.item_list {
+.item_menu {
   font: bold 1.3em 'Montserrat', sans-serif;
   color: #FFFFFF;
   list-style: none;
+  margin-bottom: 5px;
 }
 
-.item_list:hover {
+
+.item_menu:hover {
   cursor: pointer;
-  color: red;
+  text-shadow: 10px 10px 10px #00000070;
+  transition: 0.5s;
 }
 
 .hidden_list {
