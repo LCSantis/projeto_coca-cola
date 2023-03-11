@@ -65,7 +65,7 @@ nav ul li ul li {
 }
 
 //Configurações menu Mobile
-#small_screen_hidden {
+div {
   display: none;
 }
 
