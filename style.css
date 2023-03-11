@@ -10,23 +10,63 @@ html {
 body {
   margin: auto;
   height: 100vh;
-  max-width: 1000px;
+  max-width: 1024px;
   background: url('https://github.com/LCSantis/figma-to-website-coca-cola/blob/main/02-coca-cola/img/background-image.png?raw=true') no-repeat center;
   background-size: contain;
 
 }
 
 #browse_menu {
-  padding-top: 30px;
+  width: 75vw;
+  margin-top: 30px;
 }
 
-main {
-  height:100vh;
-  display: flex;
-  background-image: url('https://github.com/LCSantis/figma-to-website-coca-cola/blob/main/02-coca-cola/img/coca-cola.png?raw=true');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+// Configuraçoes menu Desktop
+ul{
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font: bold 1em 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li ul {
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  display: block;
+}
+
+.menu_desktop {
+  margin-left: 15px;
+}
+
+.big_menu {
+  float: right;
+}
+
+//Configurações menu Mobile
+#small_screen_hidden {
+  display: none;
 }
 
 .menu_line {
@@ -43,18 +83,7 @@ main {
   background-color: #FFFFFF;
 }
 
-#title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 36px;
-  color: #FFFFFF;
-  width: 212px;
 
-  position: absolute;
-  left: 50%;
-  top: 45%;
-
-  transform: translate(-150%);
-}
 
 .item_menu {
   font: bold 1.3em 'Montserrat', sans-serif;
@@ -77,5 +106,28 @@ main {
 .show_list {
   display: block;
 }
+
+#title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  color: #FFFFFF;
+  width: 212px;
+
+  position: absolute;
+  left: 50%;
+  top: 45%;
+
+  transform: translate(-150%);
+}
+
+main {
+  height:100vh;
+  display: flex;
+  background-image: url('https://github.com/LCSantis/figma-to-website-coca-cola/blob/main/02-coca-cola/img/coca-cola.png?raw=true');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 
 

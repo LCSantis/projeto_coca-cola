@@ -1,4 +1,4 @@
-const menu = document.querySelector("#menu");
+const menu = document.querySelector(".menu");
 const list = document.querySelector(".hidden_list")
 
 menu.addEventListener("mouseover", () => {
