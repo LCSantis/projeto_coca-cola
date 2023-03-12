@@ -1,0 +1,90 @@
+#browse_menu {
+    width: 75vw;
+    margin-top: 30px;
+  }
+  
+  // Configuraçoes menu Desktop
+  ul{
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    font: bold 1em 'Montserrat', sans-serif;
+    color: #FFFFFF;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  
+  nav ul li:hover ul {
+    display: block;
+  }
+  
+  nav ul li ul li {
+    display: block;
+  }
+  
+  .menu_desktop {
+    margin-left: 15px;
+  }
+  
+  .big_menu {
+    float: right;
+  }
+  
+  //Configurações menu Mobile
+  div {
+    display: none;
+  }
+  
+  .menu_line {
+    margin-bottom: 4px;
+    width: 1.3em;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  
+  .menu_line2 {
+    margin-bottom: 4px;
+    width: 2em;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  
+  
+  
+  .item_menu {
+    font: bold 1.3em 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  
+  
+  .item_menu:hover {
+    cursor: pointer;
+    text-shadow: 10px 10px 10px #00000070;
+    transition: 0.5s;
+  }
+  
+  .hidden_list {
+    display: none;
+  }
+  
+  .show_list {
+    display: block;
+  }
