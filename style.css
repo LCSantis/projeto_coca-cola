@@ -54,6 +54,10 @@ header > menu > section {
   padding-bottom: 10px;
 }
 
+.menu_items > li:active {
+  text-shadow: 2px 2px 10px;
+}
+
 header > menu > ul > li > a {
   color: #FFFFFF;
   text-decoration: none;
