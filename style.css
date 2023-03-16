@@ -5,15 +5,26 @@
   padding: 0px;
 }
 
-html {
-
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(180deg, rgba(218, 59, 63, 0) 15.06%, #DA3B3F 100%), linear-gradient(179.29deg, #CF2425 11.93%, rgba(207, 36, 37, 0) 99.39%);
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+header > menu {
+  display: block;
+  width: 90vw;
+  margin: auto;
+}
+
+header > menu > ul {
+  list-style-type: none;
+}
+
+header > menu > section {
+  padding: 10px 0px;
+  width: 2.1em;
 }
 
 .menu_line {
@@ -30,27 +41,9 @@ body {
   background-color: #FFFFFF;
 }
 
-header > menu {
-  border: 1px solid black;
-  display: block;
-  width: 90vw;
-  margin: auto;
-}
-
-header > menu > ul {
-  list-style-type: none;
-}
-
-header > menu > section {
-  padding: 10px;
-  width: 2.1em;
-}
-
-
-
 .menu_items {
   display: none;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .show_list {
@@ -68,7 +61,6 @@ header > menu > ul > li > a {
 }
 
 main {
-  border: 1px solid black;
   width: 90vw;
   margin: auto;
 }
@@ -77,11 +69,11 @@ main > h1 {
   color: #FFFFFF;
   width: 50vw;
   margin: auto;
+  margin-top: 50px;
   text-align: center;
 }
 
 main > picture {
-  border: 1px solid black;
   display: block;
   background: url('https://github.com/LCSantis/figma-to-website-coca-cola/blob/main/02-coca-cola/img/background-image.png?raw=true') no-repeat center;
   background-size: contain;
