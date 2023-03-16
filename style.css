@@ -9,7 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(180deg, rgba(218, 59, 63, 0) 15.06%, #DA3B3F 100%), linear-gradient(179.29deg, #CF2425 11.93%, rgba(207, 36, 37, 0) 99.39%);
   background-repeat: no-repeat;
-  height: 100vh;
+  background-size: 1980px 1020px;
 }
 
 header > menu {
@@ -23,6 +23,7 @@ header > menu > ul {
 }
 
 header > menu > section {
+  margin-left: 0px;
   padding: 10px 0px;
   width: 2.1em;
 }
@@ -47,7 +48,7 @@ header > menu > section {
 }
 
 .show_list {
-  display:block;
+  display: block;
 }
 
 .menu_items > li {
