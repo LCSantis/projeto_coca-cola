@@ -10,14 +10,14 @@
 <body>
   <header>
     <menu>
-      <ul>
-        <!-- Desenho de linhas do menu mobile -->
-        <section>
-          <div class="menu_line"></div>
-          <div class="menu_line2"></div>
-          <div class="menu_line"></div>
-        </section>
+      <!-- Desenho de linhas do menu mobile -->
+      <section id="lines">
+        <div class="menu_line"></div>
+        <div class="menu_line2"></div>
+        <div class="menu_line"></div>
+      </section>
 
+      <ul id="menu_items">
         <!-- Menu -->
         <li><a href="#">HOME</a></li>
         <li><a href="#">NOTÍCIAS</a></li>
@@ -29,8 +29,9 @@
   </header>
   <main>
     <h1>Things go better with</h1>
-    <img id="writing" src="https://github.com/LCSantis/figma-to-website-coca-cola/blob/main/02-coca-cola/img/background-image.png?raw=true" alt="Escrita da Coca-Cola">
-    <img id="coke-picture" src="https://github.com/LCSantis/figma-to-website-coca-cola/blob/main/02-coca-cola/img/coca-cola.png?raw=true" alt="Imagem garrafa de Coca-Cola">
+    <picture>
+      <img id="coke-picture" src="https://github.com/LCSantis/figma-to-website-coca-cola/blob/main/02-coca-cola/img/coca-cola.png?raw=true" alt="Imagem garrafa de Coca-Cola">
+    </picture>
   </main>
 </body>
 </html>
