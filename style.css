@@ -42,14 +42,23 @@ header > menu > ul {
 }
 
 header > menu > section {
-  padding: 15px;
+  padding: 10px;
   width: 2.1em;
 }
 
 
-#menu_items {
+
+.menu_items {
   display: none;
-  padding-top: 10px;
+  margin-left: 10px;
+}
+
+.show_list {
+  display:block;
+}
+
+.menu_items > li {
+  padding-bottom: 10px;
 }
 
 header > menu > ul > li > a {
